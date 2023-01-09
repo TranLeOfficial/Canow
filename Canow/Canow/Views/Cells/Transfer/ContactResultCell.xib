@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="NotoSansJP-Bold.otf">
+            <string>NotoSansJP-Bold</string>
+        </array>
+        <array key="NotoSansJP-Medium.otf">
+            <string>NotoSansJP-Medium</string>
+        </array>
+        <array key="NotoSansJP-Regular.otf">
+            <string>NotoSansJP-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="79" id="KGk-i7-Jjw" customClass="ContactResultCell" customModule="Canow" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="400" height="79"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="400" height="79"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Sfo-hd-eSd">
+                        <rect key="frame" x="0.0" y="0.0" width="400" height="61"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_avatar" translatesAutoresizingMaskIntoConstraints="NO" id="gmz-Wr-kiT">
+                                <rect key="frame" x="8" y="9.5" width="42" height="42"/>
+                                <color key="backgroundColor" name="grayE5E5E5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="42" id="Fg6-hZ-9TZ"/>
+                                    <constraint firstAttribute="height" constant="42" id="GAG-xz-htK"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="S2p-GK-Dx8">
+                                <rect key="frame" x="62" y="9.5" width="330" height="20"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Alex Richarlisonnnnnnnnnnnnnnnnnnnnn" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KeH-C1-Cn8">
+                                        <rect key="frame" x="0.0" y="0.0" width="69.5" height="20"/>
+                                        <fontDescription key="fontDescription" name="NotoSansJP-Bold" family="Noto Sans JP" pointSize="14"/>
+                                        <color key="textColor" name="black111111"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Vc-eX-XiS">
+                                        <rect key="frame" x="73.5" y="0.0" width="256.5" height="20"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="2Gw-DH-yjs">
+                                                <rect key="frame" x="0.0" y="8" width="5" height="4"/>
+                                                <color key="tintColor" name="redEB2727"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="5" id="OV5-B7-vtW"/>
+                                                    <constraint firstAttribute="height" constant="5" id="j5b-j1-181"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="送金先のユーザーが現在無効の状態になっています" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GCD-gd-JtA">
+                                                <rect key="frame" x="9" y="0.0" width="247.5" height="20.5"/>
+                                                <fontDescription key="fontDescription" name="NotoSansJP-Medium" family="Noto Sans JP" pointSize="14"/>
+                                                <color key="textColor" name="redEB2727"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="GCD-gd-JtA" secondAttribute="trailing" id="4rt-XQ-IBX"/>
+                                            <constraint firstItem="2Gw-DH-yjs" firstAttribute="leading" secondItem="6Vc-eX-XiS" secondAttribute="leading" id="W0j-6o-60n"/>
+                                            <constraint firstItem="2Gw-DH-yjs" firstAttribute="centerY" secondItem="6Vc-eX-XiS" secondAttribute="centerY" id="WXH-lq-ggX"/>
+                                            <constraint firstItem="GCD-gd-JtA" firstAttribute="centerY" secondItem="6Vc-eX-XiS" secondAttribute="centerY" id="hY0-Zo-euo"/>
+                                            <constraint firstItem="GCD-gd-JtA" firstAttribute="leading" secondItem="2Gw-DH-yjs" secondAttribute="trailing" constant="4" id="hfa-nX-P4x"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="GCD-gd-JtA" firstAttribute="width" secondItem="S2p-GK-Dx8" secondAttribute="width" multiplier="0.75" id="Pvx-gD-Rdt"/>
+                                    <constraint firstAttribute="height" constant="20" id="sVH-O0-XJw"/>
+                                </constraints>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0123 222 123" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mDv-qr-ldp">
+                                <rect key="frame" x="62" y="34" width="76.5" height="17.5"/>
+                                <fontDescription key="fontDescription" name="NotoSansJP-Bold" family="Noto Sans JP" pointSize="12"/>
+                                <color key="textColor" name="black111111"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="gmz-Wr-kiT" secondAttribute="bottom" constant="9.5" id="0JK-N5-LFL"/>
+                            <constraint firstAttribute="trailing" secondItem="S2p-GK-Dx8" secondAttribute="trailing" constant="8" id="B4j-io-Thy"/>
+                            <constraint firstItem="mDv-qr-ldp" firstAttribute="bottom" secondItem="gmz-Wr-kiT" secondAttribute="bottom" id="EzF-RK-gVd"/>
+                            <constraint firstItem="gmz-Wr-kiT" firstAttribute="leading" secondItem="Sfo-hd-eSd" secondAttribute="leading" constant="8" id="L0L-d5-L6u"/>
+                            <constraint firstItem="mDv-qr-ldp" firstAttribute="leading" secondItem="S2p-GK-Dx8" secondAttribute="leading" id="bqG-xL-TrL"/>
+                            <constraint firstItem="S2p-GK-Dx8" firstAttribute="top" secondItem="gmz-Wr-kiT" secondAttribute="top" id="g7c-Bm-mFz"/>
+                            <constraint firstItem="gmz-Wr-kiT" firstAttribute="centerY" secondItem="Sfo-hd-eSd" secondAttribute="centerY" id="j4p-p2-nmO"/>
+                            <constraint firstItem="S2p-GK-Dx8" firstAttribute="leading" secondItem="gmz-Wr-kiT" secondAttribute="trailing" constant="12" id="rID-hX-uii"/>
+                            <constraint firstAttribute="height" constant="61" id="smy-ou-W2V"/>
+                        </constraints>
+                    </view>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="8xe-bq-Pt3">
+                        <rect key="frame" x="62" y="56" width="330" height="18"/>
+                        <subviews>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You cannot transfer to yourself" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6ti-ds-je2">
+                                <rect key="frame" x="0.0" y="18" width="170.5" height="0.0"/>
+                                <fontDescription key="fontDescription" name="NotoSansJP-Regular" family="Noto Sans JP" pointSize="12"/>
+                                <color key="textColor" name="redEB2727"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="8xe-bq-Pt3" secondAttribute="trailing" constant="8" id="OPz-ss-vh2"/>
+                    <constraint firstAttribute="bottom" secondItem="8xe-bq-Pt3" secondAttribute="bottom" constant="5" id="PQ5-Vm-axU"/>
+                    <constraint firstItem="Sfo-hd-eSd" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="dKG-Xo-iS6"/>
+                    <constraint firstAttribute="trailing" secondItem="Sfo-hd-eSd" secondAttribute="trailing" id="eWS-yf-l1C"/>
+                    <constraint firstItem="Sfo-hd-eSd" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="gPr-nb-shj"/>
+                    <constraint firstItem="8xe-bq-Pt3" firstAttribute="top" secondItem="Sfo-hd-eSd" secondAttribute="bottom" constant="-5" id="ngI-o1-cgt"/>
+                    <constraint firstItem="8xe-bq-Pt3" firstAttribute="leading" secondItem="mDv-qr-ldp" secondAttribute="leading" id="wlu-SV-OVb"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="avatarImage" destination="gmz-Wr-kiT" id="T4i-3O-2H9"/>
+                <outlet property="inactiveLabel" destination="GCD-gd-JtA" id="XCz-mz-9ew"/>
+                <outlet property="infoView" destination="Sfo-hd-eSd" id="Tjb-K7-1nb"/>
+                <outlet property="nameLabel" destination="KeH-C1-Cn8" id="O1Q-V3-xYY"/>
+                <outlet property="phoneLabel" destination="mDv-qr-ldp" id="NXA-Yd-86C"/>
+                <outlet property="statusView" destination="6Vc-eX-XiS" id="e2I-3Y-Wb7"/>
+                <outlet property="transferYourselfLabel" destination="6ti-ds-je2" id="dkE-2k-LFm"/>
+            </connections>
+            <point key="canvasLocation" x="198.55072463768118" y="86.71875"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="circle.fill" catalog="system" width="128" height="121"/>
+        <image name="ic_avatar" width="124" height="124"/>
+        <namedColor name="black111111">
+            <color red="0.066666666666666666" green="0.066666666666666666" blue="0.066666666666666666" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="grayE5E5E5">
+            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.89803921568627454" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="redEB2727">
+            <color red="0.92156862745098034" green="0.15294117647058825" blue="0.15294117647058825" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

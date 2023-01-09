@@ -1,0 +1,679 @@
+/*
+ Localizable.strings
+ Canow
+ 
+ //  Created by hieplh2 on 10/04/21.
+ 
+ */
+
+// MARK: - Common
+"ok" = "OK";
+"name" = "Name";
+"password_wrong" = "Password must contain at least 8 characters, including letters (a-z, upper or lowercase), numbers (0-9)";
+"invalid_phone_number" = "Invalid phone number";
+"pay_now" = "Pay Now";
+"normal_pay" = "Normal pay";
+"pay_without" = "Pay without coupon";
+"comfirm_the_coupon" = "Confirm the Coupon";
+"comfirm_the_payment" = "Confirm the payment";
+"confirm" = "Confirm";
+"redeem" = "Redeem";
+"from" = "From";
+"to" = "To";
+"address" = "Address";
+"scan" = "Scan";
+"exchange_now" = "Exchange now";
+"use_now" = "Use now";
+"redeem_now" = "Redeem now";
+"save" = "Save";
+"log_out" = "Log Out";
+"time" = "time";
+"update" = "Update";
+"phone_number_invalid_input" = "Please input the half-sized numeric characters";
+"donate_now" = "Donate now";
+"cancel" = "Cancel";
+"yes" = "Yes";
+"apply" = "APPLY";
+"teams" = "Token List";
+"history" = "History";
+"personal" = "Personal";
+"news" = "News";
+"top_up_detail" = "Top-up detail";
+"top_up" = "Top Up";
+"top_up_card" = "Top Up via Card";
+"top_up_gift_card" = "Top Up via Gift Card";
+"btn_pay" = "Pay";
+"btn_tranfer" = "Transfer";
+"role" = "members";
+"balance" = "Owned";
+"balance_ft" = "Owned";
+"scan_qr" = "Scan QR";
+"logout" = "Log Out";
+"sign_up" = "Register";
+"reset_password_title" = "Reset Password";
+"verify_phone_title" = "Verify Phone";
+"set_password" = "Set a new password";
+"update_information_title" = "Update Information";
+"enter_amount" = "Enter amount";
+"enter_gift_card" = "Enter gift card code";
+"visa_card" = "Credit Card";
+"gift_card" = "Gift Card";
+"visa_card_msg" = "Equivalent to ";
+"gift_card_msg" = "By clicking Redeem, you agree the Gift Card Terms and Conditions as applicable";
+"transaction_succesful" = "Transaction successful";
+"transaction_failed" = "Transaction Failed";
+"transaction_failed_msg" = "Please try again later";
+"transaction_succesful_msg" = "You have successfully paid";
+"transaction_succesful_transfer_msg" = "You have successfully transferred";
+"back_to_home" = "Back to home";
+"transfer" = "Transfer";
+"transfer_title" = "Transfer To";
+"phone_placeholder" = "Enter phone number";
+"name_placeholder" = "Receiver name";
+"wallet_placeholder" = "Receiver wallet adress";
+"amount_placeholder" = "Enter amount";
+"full_name" = "Full Name";
+"wallet_id" = "Wallet ID";
+"phone_number" = "Phone Number";
+"amount" = "Amount";
+"transaction_committed" = "Transaction Committed";
+"payment" = "Payment";
+"confirm_payment" = "Confirm the payment";
+"amount_pay" = "Amount to pay";
+"redeemed_msg" = "You have redeemed";
+"redeemed_success_msg" = "You have successfully redeemed";
+"top_up_now" = "Top Up Now";
+"exchange" = "Exchange";
+"exchange_now" = "Exchange Now";
+ "exchange_succesful_msg" = "Your have exchanged";
+"information" = "Information";
+"see_all" = "See all";
+"available" = "Available";
+"purchased" = "Purchased";
+"all_teams" = "All Token List";
+"no_coupons" = "No coupon!";
+"no_item" = "No item!";
+"coupon_detail" = "Coupon Detail";
+"no_coupons_sub" = "Please redeem coupon now";
+"insufficient_balance" = "Your balance is ";
+"available_date" = "Available till: ";
+"purchased_date" = "Valid till: ";
+"original_price" = "Original Price: ";
+"amount_to_pay" = "Amount to Pay: ";
+"can_not_use_coupon" = "Coupon cannot be used for this merchant";
+"paid_msg" = "You have paid";
+"paid_succesful_msg" = "You have successfully paid";
+"your_balance" = "Your balance is";
+"coupon_name" = "Coupon Name";
+"wallet_cant_found" = "The wallet not found";
+"can_not_transfer" = "You cannot transfer to yourself";
+"occupation" = "OCCUPATION";
+"terms_and_conditions" = "Terms & Conditions";
+"e_commerce_law" = "E-Commerce Law";
+"transaction_history" = "Transaction History";
+"transaction_detail" = "Transaction Detail";
+"transaction_id" = "Transaction Code";
+"smart_receipt" = "smart receipt";
+"favourite_sport" = "Favourite Sport";
+"favourite_sport_msg" = "Choose Your Favourite Sport";
+"status" = "status";
+"message_locked" = "Your account is temporarily locked, please try again";
+"language" = "Language";
+"my_qr" = "My QR";
+"help" = "Help";
+"profile" = "Profile";
+"update_image_error_msg" = "Supported file format are PNG, JPG and maxmimum file size is 1MB";
+"topped_up_card" = "You have topped up";
+"back_to_team" = "Back to Team Page";
+"jpy" = "JPY";
+"phone_has_not_been_registered" = "Phone number has not been registered. Please enter the registered phone number.";
+"confirm_valid_payment" = "Please show this screen to shop staff.";
+"help_get_fantoken_now" = "今すぐファントークンを手に入れよう";
+"help_give_back_team" = "使えば使うほどチームに還元";
+"help_to_use_fantoken" = "ファントークンってどうやって使えるの？";
+"help_faq" = "よくあるご質問";
+"help_registration" = "登録";
+"help_buy_coin" = "エールコインを購入";
+"help_exchange_for_token" = "ファントークンに交換";
+"help_normal" = "通常";
+"help_yell" = "エールタム";
+"help_pay" = "決済";
+"help_coupon" = "クーポン";
+"help_campain" = "キャンペーン参加";
+"help_more_feature" = "新機能 \n続々追加予定";
+"help_what_is_fantoken" = "ファントークンとは何ですか？";
+"help_what_is_fantoken_explain" = "スポーツチームやアーティストによって提供されるサービスへの参加権や特別なクーポンと交換していただけます。";
+"help_what_is_yell" = "{{ stableToken }}コインとは何ですか？";
+"help_what_is_yell_explain" = "スポーツチームやアーティストを応援している地元のお店で決済としてご利用いただけます。また対象店舗でご利用いただくと一部手数料がスポーツチームやアーティストに還元されます。";
+"help_fantoken_is_crypto" = "ファントークンは \n 暗号資産(仮想通貨)ですか？";
+"help_fantoken_is_crypto_explain" = "YELLtumで発行するコイン及びファントークンは暗号資産ではございません。";
+"help_coin_is_cash" = "コインやファントークンは \n  換金できますか？";
+"help_coin_is_cash_explain" = "換金はできません。決済での利用やクーポンに交換してお楽しみいただけます。";
+"help_consider" = "導入を検討していますが \n  どうしたらいいですか？";
+"help_consider_explain" = "ありがとうございます！下記ページよりご連絡いただけますと幸いです。";
+"help_link" = "資料請求ページへ";
+"day" = "Day";
+"month" = "Month";
+"year" = "Year";
+"gmo_payment_guideline" = "Instructions";
+"continue_payment" = "Confirm";
+"notice_payment" = "Please tap the 'サイトに戻る' button on the payment completion screen. If you forget, please contact to the operators.";
+"coupon" = "Coupon";
+"donation" = "Donation";
+"reward_campaign" = "Reward Campaign";
+"filter" = "Filter";
+"day_left" = "Day Left";
+"raised" = "Raised";
+"backers" = "Backers";
+"target_donated_amount" = "Target Donated Amount";
+"total_backer" = "Total Backer";
+"due_date" = "Due Date";
+"campaign_detail" = "Campaign Detail";
+"transfer_campaign_succesful_msg" = "You have donated";
+"message_dialog_confirm" = "Are You Sure";
+"campaign_contribution" = "Campaign contribution";
+"reward_contribution" = "Reward contribution";
+"message_update_price" = "Oop, the information has just been updated.\nPlease check again!";
+"upload_cover" = "Upload Cover";
+"transaction_process" = "Transaction processing";
+"please_topup" = "* You don’t have enough balance. Please top-up";
+"back_to_teampage" = "Back to Teampage";
+"please_try_again" = "Please try again";
+"the_newest" = "The newest news will be updated \n Let’s log in and enjoy with us";
+"view_more" = "View more";
+"exchange_back_team" = "Team page";
+"transfer_from" = "Transfer from";
+"transfer_from_you_to" = "Transfer from you to";
+"reason" = "Reason";
+"message" = "Message";
+"team" = "Team";
+"adjust_by_admin" = "Adjust by admin";
+"transfer_airdrop" = "Gift Box";
+"use_coupon_airdrop" = "Payment at ";
+"transfer_red_envelop" = "Gift Box";
+"use_coupon_red_envelop" = "Payment at ";
+
+// MARK: - S01_SignUpViewController
+"s01_title_header" = "Register";
+"s01_phone_placeholder" = "Phone number";
+"s01_term_condition" = "I agree to the ";
+"s01_btn_term_condition" = "Terms of Service & Privacy Policy";
+"s01_btn_continue" = "Continue";
+"s01_btn_Login" = "Login";
+"s01_password_setting" = "Password setting";
+"s01_password_placeholder" = "Password";
+"s01_retype_password_placeholder" = "Re-type password";
+"s01_lb_password_must" = "Password must be";
+"s01_lb_password_character" = "At least 8 characters";
+"s01_lb_password_include" = "Including letters (a-z, upper or lowercase)";
+"s01_lb_password_number" = "Number (0-9)";
+"s01_lb_password_match" = "Password matched";
+"s01_SMS_authentication" = "SMS authentication";
+"s01_lb_enter_otp" = "Enter the OTP sent to ";
+"s01_btn_resent" = "Re-sent";
+"s01_title_otp_lock" = "Your registration is temporarily locked";
+"s01_message_otp_lock" = "You resend OTP more than 5 times \n
+Please try again in 60:00";
+"s01_btn_back" = "Back";
+"s01_title_update_information" = "Update information";
+"s01_fullname_placeholder" = "Fullname";
+"s01_lb_gender" = "Gender";
+"s01_btn_male" = "Male";
+"s01_btn_female" = "Female";
+"s01_btn_other" = "Other";
+"s01_dob_placeholder" = "Date of birth";
+"s01_occupation_placeholder" = "Occupation (Optional)";
+"s01_place_live_placeholder" = "Place to live (Optional)";
+"s01_favourite_team" = "Favourite team";
+"s01_btn_submit" = "Submit";
+"s01_select_time" = "Select time";
+"s01_btn_done" = "Done";
+"s01_btn_select_team" = "Select team";
+"s01_title_place_to_live" = "Place to live";
+"s01_title_occupation" = "Occupation";
+"s01_lb_welcome_onboard" = "Welcome onboard !";
+"s01_lb_ready" = "Ready to get closer to your favourite team?";
+"s01_btn_letgo" = "Let’s go";
+"s01_title_terms_and_conditions" = "Terms and conditions";
+"s01_btn_select_photo" = "Select photo";
+"s01_title_camera_roll" = "Camera Roll";
+"s01_use_your_photo" = "Use your photo";
+"s01_take_photo" = "Take a photo with camera";
+"s01_btn_cancel" = "Cancel";
+"pleaseExchange" = "Please exchange more continue";
+"s01_lb_avatar" = "Avatar";
+"s01_message_empty_sprort" = "List is being updated \nPlease choose another sport";
+"s01_message_phone_error" = "The phone number has 11 number, please try again";
+"s01_btn_register" = "Register";
+"s01_landing_login" = "Log in";
+
+// MARK: - S02_ResetPasswordController
+"s02_title_header" = "Forgot password";
+"s02_lb_message" = "Please enter your phone number. Yelltum will send OTP code to help you reset password.";
+"s02_btn_next" = "Next";
+"s02_phone_placeholder" = "Phone number";
+"s02_password_changed" = "Password changed";
+"s02_btn_login" = "Log in";
+"s02_error_register" = "Your registration is temporarily locked, please try again.";
+"s02_btn_continue" = "Continue";
+
+// MARK: - S03_LoginViewController
+"s03_title_login" = "Login";
+"s03_phone_placeholer" = "Phone number";
+"s03_password_placeholer" = "Password";
+"s03_lb_register" = "You don’t have account?";
+"s03_btn_register" = "Register";
+"s03_btn_login" = "Login";
+"s03_forgot_password" = "Forgot password?";
+"s03_cb_remember_me" = "Remember me";
+"s03_lb_skip" = "Skip";
+"s03_registration_member" = "New member registration";
+
+// MARK: - S04_TopUp
+"s04_your_balance" = "Your balance";
+"s04_title_header" = "Top-up";
+"s04_visa_card" = "Credit Card";
+"s04_gift_card" = "Enter Gift card code";
+"s04_value_card_code" = "Gift card code";
+"s04_value_gift_card" = "Value of gift card";
+"s04_btn_redeem" = "Redeem";
+"s04_transaction_processing" = "Transaction processing";
+"s04_message_processing" = "The transaction takes longer than expected\n
+Coming back to home does not affect the process";
+"s04_btn_back_home" = "Back to home";
+"s04_title_goback" = "Still wanna go back?";
+"s04_message_goback" = "You can check the status of transaction in Transaction History ";
+"s04_btn_cancel" = "Cancel";
+"s04_btn_ok" = "OK";
+"s04_title_transaction_detail" = "Transaction detail";
+"s04_lb_topup_detail" = "Top-up detail";
+"s04_btn_new_topup" = "New top-up";
+"s04_transaction_success" = "Successful";
+"s04_transaction_fail" = "Failed";
+"s04_btn_tryagain" = "Try again";
+"s04_lb_transaction_limit" = "The amount has exceeded the transaction limit of";
+"s04_btn_topup" = "Top-up";
+"s04_GMO_message" = "Please remember click to button
+サイトに戻る to complete the payment.\n
+If you forget, you need to contact to the operation to check the payment";
+"s04_btn_confirm" = "Confirm";
+"s04_equivalent_to" = "Equivalent to:";
+"s04_countinue" = "Continue";
+"s04_error_limit" = "The amount should be less than ";
+"s04_message_error_E038" = "* The amount should be less than ";
+"s04_message_error_E028" = "* Transaction is temporarily unavailable, please try again";
+"s04_top_up" = "Top-up";
+"s04_redeem" = "Redeem";
+"s04_btn_confirm_popup" = "Confirm";
+"s04_btn_topup_popup" = "Top up";
+
+// MARK: - S05_Transfer
+"s05_title_header" = "Transfer";
+"s05_message_find_contact" = "Yelltum can’t find any contact,\n
+Let’s check the phone number again";
+"s05_reciever_inactive" = "Reciever is inactive";
+"s05_title_transfer_to" = "Transfer to ";
+"s05_btn_transfer" = "Transfer";
+"s05_btn_topup" = "Top-up";
+"s05_lb_from" = "From";
+"s05_lb_to" = "To";
+"s05_transaction_confirm" = "Transaction confirmation";
+"s05_lb_transfer_from_you" = "Tranfer from you to";
+"s05_btn_exchange" = "Exchange";
+"s05_lb_please_exchange" = "* You don’t have enough balance.\n Please exchange more to continue";
+"s05_phone_placeholder" = "Enter phone number";
+"s05_message_cant_find_contact" = "Yelltum can’t find any contacts. Let’s check the phone number again";
+"s05_message_transfer_to_yourself" = "You cannot transfer to yourself";
+
+// MARK: - S06_Pay
+"s06_title_pay" = "Pay:";
+"s06_use_coupon" = "Use coupon";
+"s06_normal_pay" = "Normal pay";
+"s06_Pay_without_coupon" = "Pay without coupon";
+"s06_btn_pay" = "Pay";
+"s06_merchant" = "Merchant";
+"s06_message_no_coupon" = "You have no coupon now";
+"s06_exchange_topup" = "Top-up";
+"s06_lb_pay" = "Pay";
+
+// MARK: - S07_MyPage
+"s07_edit_profile" = "Edit profile";
+"s07_transaction_history" = "Transaction history";
+"s07_favorite_teams" = "Favorite teams";
+"s07_terms_and_conditions" = "Terms and conditions";
+"s07_ecommerce_law" = "E-commerce Law";
+"s07_language_setting" = "Language setting";
+"s07_help" = "Help";
+"s07_log_out" = "Log out";
+"s07_message_update_avtar_success" = "Your avatar has been updated
+successfully";
+"s07_message_update_profile_success" = "Your profile has been updated successfully";
+"s07_btn_save" = "Save";
+"s07_message_logout" = "Do you want to logout?";
+"s07_btn_back" = "Back";
+"s07_japanese_language" = "Japanese";
+"s07_english_language" = "English";
+"s07_transfer_type" = "Transfer to";
+"s07_top_up_type" = "Top Up";
+"s07_redeem_coupon" = "Redeem Coupon";
+"s07_use_coupon" = "Payment at";
+"s07_use_coupon_without_payment" = "Payment at";
+"s07_exchange_type" = "Exchange to";
+"s07_transfer_st_from_operator_to_customer" = "Transfer from";
+"s07_transfer_st_from_customer_to_operator" = "Adjust by Admin";
+"s07_remittance" = "Donate";
+"s07_remittanceDetail" = "Remittance Detail";
+"s07_pay" = "Payment at";
+"s07_title_team" = "Team";
+"s07_lb_transfer_from" = "Transfer from";
+"s07_smart_receipt" = "Smart receipt";
+"s07_lb_success" = "Successful";
+"s07_lb_processing" = "Processing";
+"s07_lb_id" = "ID";
+"s07_payment_method" = "Payment Method";
+"s07_gift_code" = "Gift code";
+"s07_credit_card" = "Credit Card";
+"s07_message_update_avatar" = "Your avatar has been updated successfully";
+"s07_lb_successful" = "Successful";
+"s07_lb_used_coupon" = "Used coupon";
+"s07_lb_redeemed_coupon" = "Redeemed coupon";
+"s07_lb_Top_up" = "Top-up";
+"s07_lb_total_balance" = "Token Balance";
+"s07_btn_exchange" = "Exchange";
+"s07_btn_later" = "Later";
+"s07_your_qr_code" = "Your QR code & transaction function will show after login";
+"s07_lb_guest" = "Guest";
+"s07_lb_transfer_st_red_envelope" = "Get from the event QR/URL";
+"s07_lb_reward_from" = "Reward from";
+"s07_lb_team" = "Team";
+"s07_lb_used_coupon" = "Used coupon";
+
+// MARK: - S10_Team Remittance
+"s10_title_remittance_detail" = "Remittance detail";
+"s10_lb_raised" = "Raised";
+"s10_remittance_for" = "Remittance for";
+"s10_lb_purchased" = "Purchased";
+"s10_lb_donated" = "Donated";
+"s10_E065_message" = "Please check again or try another remittance";
+"s10_lb_backer" = "Backers";
+
+// MARK: - S11_Team Page
+"s11_lb_coupon" = "Coupon";
+"s11_lb_not_purchased" = "Not Purchased";
+"s11_lb_purchased" = "Purchased";
+"s11_lb_crowdfunding" = "Crowdfunding";
+"s11_lb_remittance" = "Remittance";
+"s11_lb_end_of_sale" = "End of sale";
+"s11_lb_expiry_date" = "Expiry date";
+"s11_btn_exchange" = "Exchange";
+"s11_btn_transfer" = "Transfer";
+"s11_btn_information" = "Information";
+"s11_message_no_coupon" = "There is no coupon on your list";
+"s11_message_no_crowdfunding" = "There is no crowdfunding at the moment";
+"s11_message_no_remittance" = "There is no remittance at the moment";
+"s11_message_no_notpurchased" = "There is no coupon on your not purchased list";
+"s11_message_please_login" = "Please Log in to continue using this function";
+"s11_message_time_out" = "Log in session has expired \nPlease log in again";
+"s11_message_empty_new" = "The newest news will be updated";
+
+// MARK: - S12_Transfer
+"s12_lb_receiver_inactive" = "Receiver is inactive";
+
+// MARK: - S13_Fan Token
+"s13_title_exchange" = "Exchange";
+"s13_btn_exchange" = "Exchange";
+"s13_lb_exchange_detail" = "Exchange detail";
+
+// MARK: - S14_Redeem Coupon
+"s14_message_not_enough_balance" = "Your balance is not enough";
+"s14_message_exchange_more" = "Please exchange more to continue";
+"s14_price_of_coupon" = "Price of the coupon";
+"s14_coupon_info" = "Coupon information";
+"s14_item" = "Item";
+"s14_description" = "Description";
+"s14_balance" = "Balance";
+"s14_redeemed_coupon" = "Redeemed Coupon";
+"s14_usable_from" = "Usable from: ";
+"s14_expiry_day" = "Expiry date: ";
+"s14_redeem_other_coupons" = "Please redeem other coupons";
+"s14_used_coupon" = "Used Coupon";
+"s14_title_coupon_detail" = "Coupon detail";
+"s14_end_of_sale" = "End of sale: ";
+"s14_title_coupon_run_out" = "Sorry, this coupon has just run out";
+"s14_title_coupon_run_out_normal_redeem" = "Oops, this coupon has just run out";
+"s14_title_coupon_inactive_normal_redeem" = "The coupon currently is not available";
+"s14_redeem_coupon_error" = "Please redeem other coupons";
+"s14_title_sold_out_normal_coupon" = "Sorry, this coupon has just run out";
+"s14_message_sold_out_normal_coupon" = "Please redeem other coupons";
+"s14_title_sold_out_crowdfunding" = "Oops, this coupon has just run out";
+"s14_message_sold_out_crowdfunding" = "Please redeem other coupons";
+
+// MARK: - S15_Use Coupon
+"s15_start_after" = "Start after ";
+"s15_days" = " days";
+"s15_day" = " day";
+"s15_remove_coupon" = "Remove coupon";
+"s15_out_of_date" = "Out of date: ";
+"s15_amount_to_pay" = "Amount to pay";
+"s15_message_please_topup" = "Please Top-up more to continue";
+"s15_btn_usable_from" = "Usable from ";
+"s15_title_remove_coupon" = "Are you sure to remove this coupon?";
+"s15_message_remove_coupon" = "The coupon will be removed from your list";
+
+// MARK: - S17_Crowdfunding Redeem
+"s17_lb_target" = "Target";
+"s17_lb_raised" = "Raised";
+"s17_lb_due_date" = "Due Date";
+"s17_lb_backers" = "Backers";
+"s17_btn_see_more" = "See more";
+"s17_btn_see_less" = "See less";
+"s17_title_coupon_rewards" = "Coupon rewards";
+"s17_title_infomation" = "Information";
+"s17_lb_donate" = "Donate";
+"s17_btn_donate_redeem" = "Donate to redeem";
+"s17_lb_usable_from" = "Usable from:";
+"s17_lb_expiry_date" = "Expiry date:";
+"s17_lb_successful_fundraising" = "Successful fundraising";
+"s17_lb_closed" = "Closed";
+"s17_lb_redeemed_coupon" = "Redeemed Coupon";
+"s17_btn_back_teampage" = "Back to Team page";
+"s17_message_redeem_other_coupon" = "Please redeem other coupons";
+"s17_message_check_again" = "Please check again";
+"s17_message_exchange" = "Please exchange more to continue";
+"s17_btn_exchange" = "Exchange";
+"s17_message_error_confirm" = "Oops, there is something wrong with the system";
+"s17_btn_team_page" = "Team page";
+"s17_lb_success" = "Success";
+"s17_title_coupon_run_out" = "Oops, the coupon has just run out";
+"s17_title_copon_not_available" = "The coupon is currently not available";
+
+// MARK: - S22_Red Envelope
+"s22_title_received_gift" = "Sorry, you already received the gift box from our event";
+"s22_message_received_gift" = "Check your gift at Coupon list of Transaction history";
+"s22_message_limited_gift" = "The number of gifts is limited.\n See you next time";
+"s22_message_event_closed" = "The event closed";
+"s22_message_invalid_QR" = "Invalid QR code";
+"s22_btn_see_your_gift" = "See your gift";
+"s22_btn_home" = "Home";
+"s22_message_disconnect_internet" = "The network connection is not stable, please try again";
+"s22_message_process" = "The gift is on its way.\nDo you want to check the process?";
+"s22_btn_check" = "Check";
+"s22_home" = "Home";
+ 
+// MARK: - MainViewController
+"home" = "Home";
+"fan_token" = "Fan Token";
+"yell" = "Coin";
+"my_page" = "My page";
+// MARK: - Transaction status
+"pending" = "Pending";
+"failed" = "Failed";
+"completed" = "Completed";
+"yelltum_admin" = "Yelltum Admin";
+
+// MARK: - Camera
+"permission_required" = "Camera permission required.";
+"waiting_permission" = "Waiting for the camera permission.";
+"not_available" = "There are no cameras available.";
+"unsupported" = "Unsupported Browser.";
+"unknown_error" = "Unknown Error.";
+"internal_error" = "Internal System Error. Please refresh the page.";
+"accept_permission" = "“Yelltum” would like to access your Camera to scan QR code and take pictures";
+"btn_deny" = "Deny";
+"btn_ok" = "OK";
+"title_cancel_edit" = "Are you sure to cancel
+all the changes?";
+"cancel_all" = "Cancel all the changes";
+"cancel" = "Cancel";
+
+// MARK: - Occupations
+"employee" = "Employee";
+"civil_servant" = "Civil servant";
+"self_employed" = "Self-employed";
+"executive_officer" = "Executive officer";
+"freelance" = "Freelance";
+"homemaker" = "Homemaker";
+"student" = "Student";
+"parttime_job" = "Part-time job";
+"unemployed" = "Unemployed";
+
+// MARK: - Sports
+"FOOTBALL" = "Football";
+"BASEBALL" = "Baseball";
+"TENNIS" = "Tennis";
+"BASKETBALL" = "Basketball";
+"TABLE_TENNIS" = "Table tennis";
+"RUGBY" = "Rugby";
+"SWIMMING" = "Swimming";
+"BADMINTON" = "Badminton";
+"VOLLEYBALL" = "Volleyball";
+"LACROSSE" = "Lacrosse";
+"DANCE" = "Dance";
+"futsal" = "Futsal";
+"OTHERS" = "Others";
+
+// MARK: - Address
+"HOKKAIDO" = "Hokkaido";
+"AOMORI" = "Aomori";
+"IWATE" = "Iwate";
+"MIYAGI" = "Miyagi";
+"AKITA" = "Akita";
+"YAMAGATA" = "Yamagata";
+"FUKUSHIMA" = "Fukushima";
+"IBARAKI" = "Ibaraki";
+"TOCHIGI" = "Tochigi";
+"GUNMA" = "Gunma";
+"SAITAMA" = "Saitama";
+"CHIBA" = "Chiba";
+"TOKYO" = "Tokyo";
+"KANAGAWA" = "Kanagawa";
+"NIIGATA" = "Niigata";
+"TOYAMA" = "Toyama";
+"ISHIKAWA" = "Ishikawa";
+"FUKUI" = "Fukui";
+"YAMANASHI" = "Yamanashi";
+"NAGANO" = "Nagano";
+"GIFU" = "Gifu";
+"SHIZUOKA" = "Shizuoka";
+"AICHI" = "Aichi";
+"MIE" = "Mie";
+"SHIGA" = "Shiga";
+"KYOTO" = "Kyoto";
+"OSAKA" = "Osaka";
+"HYOGO" = "Hyogo";
+"NARA" = "Nara";
+"WAKAYAMA" = "Wakayama";
+"TOTTORI" = "Tottori";
+"SHIMANE" = "Shimane";
+"OKAYAMA" = "Okayama";
+"HIROSHIMA" = "Hiroshima";
+"YAMAGUCHI" = "Yamaguchi";
+"TOKUSHIMA" = "Tokushima";
+"KAGAWA" = "Kagawa";
+"EHIME" = "Ehime";
+"KOUCHI" = "Kouchi";
+"FUKUOKA" = "Fukuoka";
+"SAGA" = "Saga";
+"NAGASAKI" = "Nagasaki";
+"KUMAMOTO" = "Kumamoto";
+"OITA" = "Oita";
+"MIYAZAKI" = "Miyazaki";
+"KAGOSHIMA" = "Kagoshima";
+"OKINAWA" = "Okinawa";
+
+// MARK: - Error
+"E001" = "An account has been associated with this phone number\n Please Log in";
+"E002" = "OTP has expiry";
+"E003" = "Invalid OTP";
+"E004" = "Passwords don't match";
+"E005" = "The phone number is not registered, please try again";
+"E006" = "News is not existed";
+"E007" = "Transaction is not existed";
+"E008" = "Your account was deactivated";
+"E009" = "The phone number or password is incorrect, please try again";
+"E010" = "User must change password in first login time";
+"E011" = "Your account has been closed";
+"E012" = "Wallet is not existed";
+"E013" = "Email is used, please enter another one";
+"E014" = "Invalid email or password, please try again";
+"E015" = "Operator is existed in DB";
+"E016" = "Operator is not existed in cognito";
+"E017" = "Token amount exceeds remaining supply";
+"E018" = "Ticker is used";
+"E019" = "Email hasn't been registered";
+"E020" = "Partner is not existed";
+"E021" = "Gift card expiry, please try again";
+"E022" = "Phone number has not been registered";
+"E023" = "Receiver is inactive";
+"E024" = "The issuer of this token exists";
+"E025" = "There are transactions using this token, so the issuer cannot be changed";
+"E026" = "Invalid gift card, please try again";
+"E027" = "Gift card redeemed, please try again";
+"E028" = "Transaction is temporarily unavailable";
+"E029" = "Quantity must be less than or equal to 1000";
+"E030" = "Fantoken is not existed";
+"E031" = "The partner has owned the wallet that contains this token";
+"E032" = "The coupon is currently not available";
+"E033" = "Oops, the coupon has just run out";
+"E034" = "The coupon is currently not available";
+"E035" = "Receiver not exist or deactivated";
+"E036" = "Coupon cannot be used for this merchant";
+"E037" = "Your registration is temporarily locked, please try again.";
+"E038" = "Balance amount exceeded";
+"E065" = "Oops, the information has just been updated";
+"E067" = "Oops, this coupon has just run out";
+"C001" = "Missing result from Chaincode";
+"E400" = "Bad request";
+"E403" = "User is unauthorized";
+"E500" = "Server error";
+"E005Login" = "The phone number or password is incorrect,\n please try again";
+"E005Reset" = "The phone number is not registered, please try again";
+"E087" = "Sorry for the inconvenience. This function is currently unavailable.";
+"E049" = "You cannot transfer to yourself.";
+"E072" = "Invalid QR code";
+"E075" = "The event closed";
+"E076" = "The number of gifts is limited.\nSee you next time";
+"E077" = "Sorry, you already received the gift box from our event";
+"E078" = "Invalid QR code";
+"E109" = "Campaign has been closed, so this course cannot be redeemed";
+
+// MARK: - QR
+"qr_message_scan" = "Put the QR into your camera";
+"qr_scan_receiver" = "Scan Receiver QR";
+"qr_scan_pay" = "Scan QR code";
+"qr_scan" = "Scan QR";
+"qr_error_invalid_merchant" = "Invalid Merchant QR code";
+"qr_error_invalid_receiver" = "Invalid Receiver QR code";
+"qr_go_to_setting" = "Go to Setting";
+"qr_scan_merchant" = "Scan Merchant QR";
+
+// MARK: - Internet
+"internet_message_disconnected" = "Internet disconnected, please check and try again";
+"internet_network_unavailable" = "Network unavailable";
+
+// MARK: - Permission
+"permission_accept_photo" = "“Yelltum” would like to access your Photos to upload photos on app";
+"permission_accept_camera" = "“Yelltum” would like to access your Camera to scan QR code and take pictures";
+
+// MARK: - Session timeout
+"btn_login_timeout_view" = "Log in";

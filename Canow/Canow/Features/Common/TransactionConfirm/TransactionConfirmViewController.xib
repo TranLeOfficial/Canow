@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TransactionConfirmViewController" customModule="Canow" customModuleProvider="target">
+            <connections>
+                <outlet property="bgImageView" destination="7jh-Sz-gEO" id="4J2-uc-MqE"/>
+                <outlet property="confirmButton" destination="OLO-1C-90j" id="mQ6-ox-tvo"/>
+                <outlet property="contentView" destination="UGv-hf-HUZ" id="1RJ-NA-sqN"/>
+                <outlet property="exchangeView" destination="tyD-dZ-EFD" id="KK8-sj-Klv"/>
+                <outlet property="headerView" destination="gB3-dF-Ea8" id="PVT-TO-EFG"/>
+                <outlet property="redeemCouponView" destination="D6e-zY-GVV" id="bye-7E-Dxq"/>
+                <outlet property="remittanceCampaignView" destination="hKe-ky-E0b" id="jZC-72-OUQ"/>
+                <outlet property="ticketView" destination="5zp-S8-6HP" id="Gi9-zh-Ocv"/>
+                <outlet property="transferConfirmView" destination="Iep-Jn-KpA" id="Uam-Dm-wLY"/>
+                <outlet property="useCouponView" destination="ZZA-td-lvR" id="1vd-sn-oOn"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="7jh-Sz-gEO">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896.5"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="7jh-Sz-gEO" secondAttribute="height" multiplier="375:812" id="gfQ-P6-BjZ"/>
+                    </constraints>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gB3-dF-Ea8" customClass="BaseHeaderView" customModule="Canow" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                    <viewLayoutGuide key="safeArea" id="jCx-Qd-1uk"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="7qz-Ve-Oyb"/>
+                    </constraints>
+                </view>
+                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UGv-hf-HUZ">
+                    <rect key="frame" x="0.0" y="88" width="414" height="808"/>
+                    <subviews>
+                        <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fiU-Tl-IBk">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="692"/>
+                            <subviews>
+                                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="V3K-SG-1rW" userLabel="ViewScroll">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                                    <subviews>
+                                        <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5zp-S8-6HP" userLabel="ViewTicket">
+                                            <rect key="frame" x="16" y="24" width="382" height="0.0"/>
+                                            <subviews>
+                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Gic-Dh-VrJ">
+                                                    <rect key="frame" x="0.0" y="0.0" width="382" height="0.0"/>
+                                                    <subviews>
+                                                        <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tyD-dZ-EFD" customClass="ExchangeConfirmView" customModule="Canow" customModuleProvider="target">
+                                                            <rect key="frame" x="0.0" y="0.0" width="382" height="0.0"/>
+                                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </view>
+                                                        <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZZA-td-lvR" customClass="UseCouponConfirmView" customModule="Canow" customModuleProvider="target">
+                                                            <rect key="frame" x="0.0" y="0.0" width="382" height="0.0"/>
+                                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </view>
+                                                        <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hKe-ky-E0b" customClass="RemittanceCampaignConfirmView" customModule="Canow" customModuleProvider="target">
+                                                            <rect key="frame" x="0.0" y="0.0" width="382" height="0.0"/>
+                                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </view>
+                                                        <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="D6e-zY-GVV" userLabel="RedeemCouponView" customClass="RedeemCouponConfirmView" customModule="Canow" customModuleProvider="target">
+                                                            <rect key="frame" x="0.0" y="0.0" width="382" height="0.0"/>
+                                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </view>
+                                                        <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Iep-Jn-KpA" userLabel="TransferConfirmView" customClass="TransferConfirmView" customModule="Canow" customModuleProvider="target">
+                                                            <rect key="frame" x="0.0" y="0.0" width="382" height="0.0"/>
+                                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </view>
+                                                    </subviews>
+                                                </stackView>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <constraints>
+                                                <constraint firstItem="Gic-Dh-VrJ" firstAttribute="top" secondItem="5zp-S8-6HP" secondAttribute="top" id="3Dn-Eh-yfd"/>
+                                                <constraint firstItem="Gic-Dh-VrJ" firstAttribute="leading" secondItem="5zp-S8-6HP" secondAttribute="leading" id="5gO-wJ-XKt"/>
+                                                <constraint firstAttribute="bottom" secondItem="Gic-Dh-VrJ" secondAttribute="bottom" id="RvK-7z-SXv"/>
+                                                <constraint firstAttribute="trailing" secondItem="Gic-Dh-VrJ" secondAttribute="trailing" id="p2X-Gb-TUd"/>
+                                            </constraints>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                    <integer key="value" value="6"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                        </view>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstItem="5zp-S8-6HP" firstAttribute="top" secondItem="V3K-SG-1rW" secondAttribute="top" constant="24" id="8Vy-ZH-5ln"/>
+                                        <constraint firstItem="5zp-S8-6HP" firstAttribute="leading" secondItem="V3K-SG-1rW" secondAttribute="leading" constant="16" id="Mbj-Aq-rN0"/>
+                                        <constraint firstAttribute="trailing" secondItem="5zp-S8-6HP" secondAttribute="trailing" constant="16" id="dWR-F1-lAe"/>
+                                        <constraint firstAttribute="bottom" secondItem="5zp-S8-6HP" secondAttribute="bottom" constant="20" id="owd-qm-UQw"/>
+                                    </constraints>
+                                </view>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="bottom" secondItem="V3K-SG-1rW" secondAttribute="bottom" id="4t6-9d-buI"/>
+                                <constraint firstItem="V3K-SG-1rW" firstAttribute="centerX" secondItem="fiU-Tl-IBk" secondAttribute="centerX" id="CrC-4j-AAe"/>
+                                <constraint firstAttribute="trailing" secondItem="V3K-SG-1rW" secondAttribute="trailing" id="Ed5-ac-w3X"/>
+                                <constraint firstItem="V3K-SG-1rW" firstAttribute="leading" secondItem="fiU-Tl-IBk" secondAttribute="leading" id="KhO-hN-Chh"/>
+                                <constraint firstItem="V3K-SG-1rW" firstAttribute="top" secondItem="fiU-Tl-IBk" secondAttribute="top" id="Rc8-vS-ZDE"/>
+                            </constraints>
+                        </scrollView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OLO-1C-90j" customClass="CustomButton" customModule="Canow" customModuleProvider="target">
+                            <rect key="frame" x="16" y="708" width="382" height="50"/>
+                            <color key="backgroundColor" systemColor="systemYellowColor"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="zhT-Pg-tgD"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
+                            <state key="normal">
+                                <color key="titleColor" red="0.1605349183" green="0.16859760879999999" blue="0.17277070880000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="confirmAction:" destination="-1" eventType="touchUpInside" id="9hu-Ng-mFd"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="fiU-Tl-IBk" firstAttribute="leading" secondItem="UGv-hf-HUZ" secondAttribute="leading" id="2A5-Pd-wyO"/>
+                        <constraint firstAttribute="trailing" secondItem="OLO-1C-90j" secondAttribute="trailing" constant="16" id="3nG-nu-MOX"/>
+                        <constraint firstItem="fiU-Tl-IBk" firstAttribute="top" secondItem="UGv-hf-HUZ" secondAttribute="top" id="Bbu-vb-GL4"/>
+                        <constraint firstItem="OLO-1C-90j" firstAttribute="top" secondItem="fiU-Tl-IBk" secondAttribute="bottom" constant="16" id="DGj-M8-rs9"/>
+                        <constraint firstAttribute="trailing" secondItem="fiU-Tl-IBk" secondAttribute="trailing" id="Km8-2T-krc"/>
+                        <constraint firstItem="OLO-1C-90j" firstAttribute="leading" secondItem="UGv-hf-HUZ" secondAttribute="leading" constant="16" id="da7-fh-H2H"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" name="yellowFFCC00"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="gB3-dF-Ea8" secondAttribute="trailing" id="Eqp-PT-9ZU"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="OLO-1C-90j" secondAttribute="bottom" constant="16" id="KQl-3D-JJC"/>
+                <constraint firstItem="UGv-hf-HUZ" firstAttribute="top" secondItem="gB3-dF-Ea8" secondAttribute="bottom" id="U60-CD-kpm"/>
+                <constraint firstItem="7jh-Sz-gEO" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="VWP-Yi-8RQ"/>
+                <constraint firstItem="gB3-dF-Ea8" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="Xf3-J7-Ljn"/>
+                <constraint firstAttribute="bottom" secondItem="UGv-hf-HUZ" secondAttribute="bottom" id="Yd8-AW-mgt"/>
+                <constraint firstItem="7jh-Sz-gEO" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="kDE-lu-ETD"/>
+                <constraint firstItem="gB3-dF-Ea8" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="vFM-4Y-WpE"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="7jh-Sz-gEO" secondAttribute="trailing" id="wJ5-zu-WHX"/>
+                <constraint firstAttribute="trailing" secondItem="UGv-hf-HUZ" secondAttribute="trailing" id="ygm-Y0-F60"/>
+                <constraint firstItem="UGv-hf-HUZ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="zU3-Z7-Ude"/>
+            </constraints>
+            <point key="canvasLocation" x="140.57971014492756" y="77.678571428571431"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="yellowFFCC00">
+            <color red="1" green="0.80000001192092896" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

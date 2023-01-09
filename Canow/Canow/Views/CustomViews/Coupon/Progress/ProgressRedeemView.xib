@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="NotoSansJP-Bold.otf">
+            <string>NotoSansJP-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ProgressRedeemView" customModule="Canow" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="iN0-l3-epB" id="c8L-JT-dVY"/>
+                <outlet property="currentProgressView" destination="R5u-Ft-H4d" id="zJq-jw-CHw"/>
+                <outlet property="currentProgressWidth" destination="nSG-YW-D2o" id="hiY-b0-uN5"/>
+                <outlet property="progressLabel" destination="aa0-4I-axD" id="U4F-n1-yZB"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="311" height="16"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="R5u-Ft-H4d">
+                    <rect key="frame" x="0.0" y="0.0" width="0.0" height="16"/>
+                    <color key="backgroundColor" name="yellowFFCC00"/>
+                    <constraints>
+                        <constraint firstAttribute="width" id="nSG-YW-D2o"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aa0-4I-axD">
+                    <rect key="frame" x="155.5" y="0.0" width="0.0" height="16"/>
+                    <fontDescription key="fontDescription" name="NotoSansJP-Bold" family="Noto Sans JP" pointSize="10"/>
+                    <color key="textColor" name="black111111"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" name="grayE5E5E5"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="aa0-4I-axD" secondAttribute="bottom" id="79E-n6-eVS"/>
+                <constraint firstItem="aa0-4I-axD" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="IBO-H7-eeO"/>
+                <constraint firstItem="aa0-4I-axD" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="IwH-Ja-THF"/>
+                <constraint firstItem="R5u-Ft-H4d" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="qTV-TC-KmD"/>
+                <constraint firstItem="R5u-Ft-H4d" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="vWQ-v3-upe"/>
+                <constraint firstAttribute="bottom" secondItem="R5u-Ft-H4d" secondAttribute="bottom" id="vtf-oX-btK"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="133" y="81"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="black111111">
+            <color red="0.066666666666666666" green="0.066666666666666666" blue="0.066666666666666666" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="grayE5E5E5">
+            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.89803921568627454" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="yellowFFCC00">
+            <color red="1" green="0.80000001192092896" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

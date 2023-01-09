@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TimeOutView" customModule="Canow" customModuleProvider="target">
+            <connections>
+                <outlet property="LoginButton" destination="fDX-Hl-Nv8" id="bMU-Qt-HpS"/>
+                <outlet property="contentView" destination="i5M-Pr-FkT" id="aHs-Dx-ShH"/>
+                <outlet property="loginLabel" destination="yqu-T9-cS4" id="GcP-a3-ZAI"/>
+                <outlet property="loginView" destination="DPD-QT-yGH" id="kzx-UX-jf3"/>
+                <outlet property="skipButton" destination="W94-FT-Dai" id="nhQ-pS-kMD"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DPD-QT-yGH">
+                    <rect key="frame" x="42" y="271" width="330" height="364"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_login" translatesAutoresizingMaskIntoConstraints="NO" id="hKb-dy-3Ut">
+                            <rect key="frame" x="110" y="40" width="110" height="121"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="hKb-dy-3Ut" secondAttribute="height" multiplier="92:101" id="evj-LN-eTJ"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ログインセッションの有効期間が切れました。\nもう一度ログインしてください。" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yqu-T9-cS4">
+                            <rect key="frame" x="16" y="185" width="298" height="61"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Lfe-OK-gdY">
+                            <rect key="frame" x="16" y="250" width="298" height="100"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fDX-Hl-Nv8">
+                                    <rect key="frame" x="0.0" y="0.0" width="298" height="50"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="50" id="CSb-SJ-vhM"/>
+                                    </constraints>
+                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                    <state key="normal" title="Log in"/>
+                                    <connections>
+                                        <action selector="LoginAction:" destination="-1" eventType="touchUpInside" id="leL-4o-eTg"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W94-FT-Dai">
+                                    <rect key="frame" x="0.0" y="50" width="298" height="50"/>
+                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                    <state key="normal" title="Skip"/>
+                                    <connections>
+                                        <action selector="skipAction:" destination="-1" eventType="touchUpInside" id="sXz-nB-kb8"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="364" id="0qp-f8-kkq"/>
+                        <constraint firstItem="Lfe-OK-gdY" firstAttribute="leading" secondItem="DPD-QT-yGH" secondAttribute="leading" constant="16" id="1J2-l4-95v"/>
+                        <constraint firstItem="yqu-T9-cS4" firstAttribute="top" secondItem="hKb-dy-3Ut" secondAttribute="bottom" constant="24" id="DAv-eE-sM8"/>
+                        <constraint firstItem="hKb-dy-3Ut" firstAttribute="top" secondItem="DPD-QT-yGH" secondAttribute="top" constant="40" id="auR-kA-knY"/>
+                        <constraint firstItem="yqu-T9-cS4" firstAttribute="leading" secondItem="DPD-QT-yGH" secondAttribute="leading" constant="16" id="b6o-sM-Wgd"/>
+                        <constraint firstAttribute="width" secondItem="DPD-QT-yGH" secondAttribute="height" multiplier="330:364" id="dnr-7g-Mmz"/>
+                        <constraint firstAttribute="bottom" secondItem="Lfe-OK-gdY" secondAttribute="bottom" constant="14" id="lUf-kQ-WmL"/>
+                        <constraint firstAttribute="trailing" secondItem="Lfe-OK-gdY" secondAttribute="trailing" constant="16" id="mDN-qi-1Bb"/>
+                        <constraint firstItem="hKb-dy-3Ut" firstAttribute="height" secondItem="DPD-QT-yGH" secondAttribute="height" multiplier="0.332237" id="qsc-nk-uUH"/>
+                        <constraint firstItem="hKb-dy-3Ut" firstAttribute="centerX" secondItem="DPD-QT-yGH" secondAttribute="centerX" id="s9l-97-TRU"/>
+                        <constraint firstAttribute="trailing" secondItem="yqu-T9-cS4" secondAttribute="trailing" constant="16" id="sY9-D2-wRH"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.10000000000000001" colorSpace="custom" customColorSpace="displayP3"/>
+            <constraints>
+                <constraint firstItem="DPD-QT-yGH" firstAttribute="centerY" secondItem="fnl-2z-Ty3" secondAttribute="centerY" id="I7f-nc-qIn"/>
+                <constraint firstItem="DPD-QT-yGH" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="tbh-gN-hr6"/>
+            </constraints>
+            <point key="canvasLocation" x="139" y="54"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="bg_login" width="95" height="101.5"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

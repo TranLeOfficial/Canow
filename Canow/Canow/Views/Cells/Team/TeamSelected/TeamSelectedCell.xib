@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="TeamSelectedCell" customModule="Canow" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="105" height="36"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="105" height="36"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JQQ-P8-6Yz">
+                        <rect key="frame" x="0.0" y="0.0" width="105" height="36"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Football" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ue3-83-fek">
+                                <rect key="frame" x="12" y="9.5" width="81" height="17"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Ue3-83-fek" firstAttribute="centerY" secondItem="JQQ-P8-6Yz" secondAttribute="centerY" id="XHk-44-tpQ"/>
+                            <constraint firstAttribute="trailing" secondItem="Ue3-83-fek" secondAttribute="trailing" constant="12" id="Ykd-gK-dEE"/>
+                            <constraint firstItem="Ue3-83-fek" firstAttribute="leading" secondItem="JQQ-P8-6Yz" secondAttribute="leading" constant="12" id="pHf-yY-xKs"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="JQQ-P8-6Yz" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="9GM-1d-i0G"/>
+                <constraint firstAttribute="trailing" secondItem="JQQ-P8-6Yz" secondAttribute="trailing" id="H7F-4l-5Jy"/>
+                <constraint firstAttribute="bottom" secondItem="JQQ-P8-6Yz" secondAttribute="bottom" id="N5n-ae-an7"/>
+                <constraint firstItem="JQQ-P8-6Yz" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="cGQ-w2-zeK"/>
+            </constraints>
+            <size key="customSize" width="105" height="36"/>
+            <connections>
+                <outlet property="contentTeamView" destination="JQQ-P8-6Yz" id="3NA-bB-WWW"/>
+                <outlet property="nameTeamLabel" destination="Ue3-83-fek" id="Zhz-HL-wrn"/>
+            </connections>
+            <point key="canvasLocation" x="144.20289855072465" y="62.946428571428569"/>
+        </collectionViewCell>
+    </objects>
+</document>

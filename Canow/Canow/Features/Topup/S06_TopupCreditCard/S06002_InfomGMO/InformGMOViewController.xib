@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="NotoSansJP-Bold.otf">
+            <string>NotoSansJP-Bold</string>
+        </array>
+        <array key="NotoSansJP-Regular.otf">
+            <string>NotoSansJP-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="InformGMOViewController" customModule="Canow" customModuleProvider="target">
+            <connections>
+                <outlet property="confirmButton" destination="ePC-MU-G83" id="WwL-RH-GyF"/>
+                <outlet property="contentView" destination="QyO-N8-SQ8" id="nBs-Qs-6CF"/>
+                <outlet property="informLabel" destination="iiM-Dj-a5R" id="RQg-kM-tJa"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QyO-N8-SQ8" userLabel="ContentView">
+                    <rect key="frame" x="32" y="215" width="350" height="476"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_InformGMO" translatesAutoresizingMaskIntoConstraints="NO" id="nq6-d2-hd9">
+                            <rect key="frame" x="60" y="32" width="230" height="248.5"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="nq6-d2-hd9" secondAttribute="height" multiplier="191:206" id="caw-Wh-Zgj"/>
+                            </constraints>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ePC-MU-G83">
+                            <rect key="frame" x="16" y="410" width="318" height="50"/>
+                            <color key="backgroundColor" name="yellowFFCC00"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="8Nc-FB-BS6"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="NotoSansJP-Bold" family="Noto Sans JP" pointSize="16"/>
+                            <color key="tintColor" name="white"/>
+                            <state key="normal" title="Confirm">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <connections>
+                                <action selector="confirm:" destination="-1" eventType="touchUpInside" id="pjK-oD-59V"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iiM-Dj-a5R">
+                            <rect key="frame" x="16" y="304.5" width="318" height="81.5"/>
+                            <string key="text">Please remember click to button
+サイトに戻る to complete the payment.
+If you forget, you need to contact to the operation to check the payment</string>
+                            <fontDescription key="fontDescription" name="NotoSansJP-Regular" family="Noto Sans JP" pointSize="14"/>
+                            <color key="textColor" name="black111111"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="nq6-d2-hd9" secondAttribute="trailing" constant="60" id="3iz-rM-iIm"/>
+                        <constraint firstItem="iiM-Dj-a5R" firstAttribute="leading" secondItem="QyO-N8-SQ8" secondAttribute="leading" constant="16" id="7Op-9p-6Z8"/>
+                        <constraint firstItem="ePC-MU-G83" firstAttribute="top" secondItem="iiM-Dj-a5R" secondAttribute="bottom" constant="24" id="Bto-LD-Zxl"/>
+                        <constraint firstAttribute="bottom" secondItem="ePC-MU-G83" secondAttribute="bottom" constant="16" id="Gd2-XK-qlt"/>
+                        <constraint firstItem="nq6-d2-hd9" firstAttribute="top" secondItem="QyO-N8-SQ8" secondAttribute="top" constant="32" id="LQI-un-qex"/>
+                        <constraint firstItem="iiM-Dj-a5R" firstAttribute="top" secondItem="nq6-d2-hd9" secondAttribute="bottom" constant="24" id="TFG-dS-Dyg"/>
+                        <constraint firstAttribute="trailing" secondItem="iiM-Dj-a5R" secondAttribute="trailing" constant="16" id="YXX-pO-u9k"/>
+                        <constraint firstAttribute="trailing" secondItem="ePC-MU-G83" secondAttribute="trailing" constant="16" id="aFl-20-OAk"/>
+                        <constraint firstItem="nq6-d2-hd9" firstAttribute="leading" secondItem="QyO-N8-SQ8" secondAttribute="leading" constant="60" id="d51-AV-crk"/>
+                        <constraint firstItem="ePC-MU-G83" firstAttribute="leading" secondItem="QyO-N8-SQ8" secondAttribute="leading" constant="16" id="tZd-l6-vkP"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="QyO-N8-SQ8" secondAttribute="trailing" constant="32" id="RZl-b6-h3T"/>
+                <constraint firstItem="QyO-N8-SQ8" firstAttribute="centerY" secondItem="fnl-2z-Ty3" secondAttribute="centerY" id="c28-We-U9M"/>
+                <constraint firstItem="QyO-N8-SQ8" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="32" id="ltQ-j1-PMf"/>
+            </constraints>
+            <point key="canvasLocation" x="137.68115942028987" y="63.616071428571423"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="bg_InformGMO" width="191" height="206"/>
+        <namedColor name="black111111">
+            <color red="0.066666666666666666" green="0.066666666666666666" blue="0.066666666666666666" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="white">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="yellowFFCC00">
+            <color red="1" green="0.80000001192092896" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

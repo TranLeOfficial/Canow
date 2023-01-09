@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="RemittanceItemCell" customModule="Canow" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="363" height="106"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="363" height="106"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hki-BE-Szk" userLabel="contentView">
+                        <rect key="frame" x="0.0" y="0.0" width="363" height="106"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_radio_select" translatesAutoresizingMaskIntoConstraints="NO" id="q1l-z3-jqC">
+                                <rect key="frame" x="20" y="43" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="20" id="PvO-r0-fy1"/>
+                                    <constraint firstAttribute="height" constant="20" id="gc1-Qw-FiC"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rem_list3" translatesAutoresizingMaskIntoConstraints="NO" id="pZP-Ai-UzX">
+                                <rect key="frame" x="52" y="25.5" width="55" height="55"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="8wD-u7-50b"/>
+                                    <constraint firstAttribute="width" constant="55" id="s61-AD-5b8"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zde-lY-sH6">
+                                <rect key="frame" x="119" y="25.5" width="224" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="D4h-Bc-17d">
+                                <rect key="frame" x="119" y="54" width="224" height="20"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cf_fantokenlogo" translatesAutoresizingMaskIntoConstraints="NO" id="QaW-xU-YW7">
+                                        <rect key="frame" x="0.0" y="0.0" width="20" height="20"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="20" id="GVn-ey-cbe"/>
+                                            <constraint firstAttribute="height" constant="20" id="SPG-5q-n6b"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BOb-7h-BD5">
+                                        <rect key="frame" x="26" y="0.0" width="198" height="20"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="q1l-z3-jqC" firstAttribute="centerY" secondItem="Hki-BE-Szk" secondAttribute="centerY" id="4DF-3P-wbZ"/>
+                            <constraint firstItem="pZP-Ai-UzX" firstAttribute="centerY" secondItem="q1l-z3-jqC" secondAttribute="centerY" id="4ma-K9-tov"/>
+                            <constraint firstItem="D4h-Bc-17d" firstAttribute="leading" secondItem="zde-lY-sH6" secondAttribute="leading" id="7yg-dT-veV"/>
+                            <constraint firstAttribute="trailing" secondItem="zde-lY-sH6" secondAttribute="trailing" constant="20" id="GxM-0q-SN1"/>
+                            <constraint firstItem="q1l-z3-jqC" firstAttribute="leading" secondItem="Hki-BE-Szk" secondAttribute="leading" constant="20" id="QGe-6O-ZGb"/>
+                            <constraint firstItem="D4h-Bc-17d" firstAttribute="trailing" secondItem="zde-lY-sH6" secondAttribute="trailing" id="TAO-wi-bT9"/>
+                            <constraint firstItem="pZP-Ai-UzX" firstAttribute="leading" secondItem="q1l-z3-jqC" secondAttribute="trailing" constant="12" id="Xky-YX-LAd"/>
+                            <constraint firstItem="zde-lY-sH6" firstAttribute="leading" secondItem="pZP-Ai-UzX" secondAttribute="trailing" constant="12" id="ZPj-dR-hg8"/>
+                            <constraint firstItem="zde-lY-sH6" firstAttribute="top" secondItem="pZP-Ai-UzX" secondAttribute="top" id="i6L-35-suj"/>
+                            <constraint firstItem="D4h-Bc-17d" firstAttribute="top" secondItem="zde-lY-sH6" secondAttribute="bottom" constant="8" id="lUe-oj-sau"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Hki-BE-Szk" secondAttribute="trailing" id="4qn-NS-kSG"/>
+                <constraint firstItem="Hki-BE-Szk" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="6Wt-hj-X96"/>
+                <constraint firstAttribute="bottom" secondItem="Hki-BE-Szk" secondAttribute="bottom" id="rBj-n4-ALo"/>
+                <constraint firstItem="Hki-BE-Szk" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="yCK-D3-Slf"/>
+            </constraints>
+            <size key="customSize" width="363" height="106"/>
+            <connections>
+                <outlet property="background" destination="Hki-BE-Szk" id="nOI-aI-Qc4"/>
+                <outlet property="iconImage" destination="QaW-xU-YW7" id="dNS-jc-1D4"/>
+                <outlet property="imageButtonRadio" destination="q1l-z3-jqC" id="ITn-Df-ptN"/>
+                <outlet property="remittantItemImage" destination="pZP-Ai-UzX" id="rlm-8U-mpQ"/>
+                <outlet property="remittantItemName" destination="zde-lY-sH6" id="cf5-LM-j6m"/>
+                <outlet property="remittantItemPrice" destination="BOb-7h-BD5" id="a4H-5E-xpS"/>
+            </connections>
+            <point key="canvasLocation" x="363.04347826086962" y="79.6875"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="cf_fantokenlogo" width="840" height="1008"/>
+        <image name="ic_radio_select" width="20" height="20"/>
+        <image name="rem_list3" width="820" height="859"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

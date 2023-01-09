@@ -1,0 +1,10 @@
+/* 
+  InfoPlist.strings
+  Canow
+
+  Created by hieplh2 on 24/01/2022.
+  
+*/
+
+"NSCameraUsageDescription" = "QRコードスキャンや写真撮影のためにYELLtumが「カメラ」へのアクセスを求めています。";
+"NSPhotoLibraryUsageDescription" = "写真をアップロードするためにYELLtumが「写真」へのアクセスを求めています。";

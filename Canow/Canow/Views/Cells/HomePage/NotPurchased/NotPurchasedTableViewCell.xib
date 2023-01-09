@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="NotPurchasedTableViewCell" rowHeight="234" id="Y6O-0L-TOu" customClass="NotPurchasedTableViewCell" customModule="Canow" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="433" height="234"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Y6O-0L-TOu" id="s35-kr-cmO">
+                <rect key="frame" x="0.0" y="0.0" width="433" height="234"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="A8N-ha-F3o" customClass="ItemRedeemView" customModule="Canow" customModuleProvider="target">
+                        <rect key="frame" x="16" y="8" width="401" height="206"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="A8N-ha-F3o" secondAttribute="height" multiplier="343:176" id="whQ-fe-amW"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="A8N-ha-F3o" secondAttribute="trailing" constant="16" id="HwT-7B-PI0"/>
+                    <constraint firstItem="A8N-ha-F3o" firstAttribute="centerX" secondItem="s35-kr-cmO" secondAttribute="centerX" id="U4d-Fx-luH"/>
+                    <constraint firstItem="A8N-ha-F3o" firstAttribute="top" secondItem="s35-kr-cmO" secondAttribute="top" constant="8" id="Xhh-qu-Hnz"/>
+                    <constraint firstAttribute="bottom" secondItem="A8N-ha-F3o" secondAttribute="bottom" constant="8" id="gwx-S9-a0R"/>
+                    <constraint firstItem="A8N-ha-F3o" firstAttribute="leading" secondItem="s35-kr-cmO" secondAttribute="leading" constant="16" id="kD0-RO-byo"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="rnz-4P-dek"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="itemReddemView" destination="A8N-ha-F3o" id="fIK-SW-mDH"/>
+            </connections>
+            <point key="canvasLocation" x="219.56521739130437" y="146.65178571428569"/>
+        </tableViewCell>
+    </objects>
+</document>

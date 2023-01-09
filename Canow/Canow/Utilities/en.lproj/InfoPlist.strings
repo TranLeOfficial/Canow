@@ -1,0 +1,10 @@
+/* 
+  InfoPlist.strings
+  Canow
+
+  Created by hieplh2 on 24/01/2022.
+  
+*/
+
+"NSCameraUsageDescription" = "“Yelltum” would like to access your Camera to scan QR code and take pictures";
+"NSPhotoLibraryUsageDescription" = "“Yelltum” would like to access your Photos to upload photos on app";
